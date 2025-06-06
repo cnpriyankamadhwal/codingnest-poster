@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bitter", serif;;
+    font-size: 30px;
+}
+
+Body{
+    background-color: #f6f6f6;
+}
+
+/* header */
+header{
+    background-color: #b1a51e;
+    padding: 20px;
+}
+
+ header span{
+    color: royalblue;
+    font-size: 40px;
+}
+
+/* course */
+
+ul li{
+    list-style: none;
+}
+
+.course{
+    width: 22%;
+    padding: 20px;
+}
+
+.courses{
+    width: 16%;
+    padding: 20px;
+}
+
+#course{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+footer{
+    background-color: crimson;
+    padding: 15px;
+    text-align: center;
+}
